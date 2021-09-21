@@ -1,78 +1,136 @@
 h6 {
+  font-size: 20px;
+  color: black;
+}
+.stageDirection {
+  background-color: powderblue;
+  font-size: 30px;
+  color: black;
+}
+
+.stageDirection:hover {
+  background-color: yellow;
+  color: red;
+}
+.speech {
+  font-size: 10px;
+  color: black;
+}
+
+.THEEARLOFCAVERSHAM {
+  color: red;
+}
+.VISCOUNTGORINGhisSon {
+  color: black;
+}
+
+.SIROBERTCHILTERNBartUnder-SecretaryforForeignAffairs {
+  color: red;
+}
+
+.VICOMTEDENANJACAttachéattheFrenchEmbassyinLondon {
+  color: green;
+}
+
+.MR.MONTFORD {
+  color: blue;
+}
+
+.MASONButlertoSirRobertChiltern {
+  color: greenyellow;
+}
+
+.PHIPPSLordGoringServant {
+  color: goldenrod;
+}
+
+.JAMES {
+  color: blueviolet;
+}
+
+.HAROLDFootmen {
+  color: orangered;
+}
+
+.LADYCHILTERN {
+  color: orchid;
+}
+
+.LADYMARKBY {
+  color: yellowgreen;
+}
+
+.THECOUNTESSOFBASILDON {
+  color: orange;
+}
+
+.MRS.MARCHMONT {
+  color: yellow;
+  padding-right: 10px;
+}
+
+.MISSMABELCHILTERNSirRobertChilternSister {
+  color: red;
+}
+
+.MRS.CHEVELEY {
+  color: blue;
+}
+.LADYBASILDON {
+  color: palevioletred;
+ 
+}
+
+.LADYBASILDON :hover{
+    text-shadow: 2px 3px 4px rgb(157, 209, 15);
+    border-style:solid;
+    color:rgb(221, 218, 22);
+    background-color: yellow;
+  }
+  .MRS.MARCHMONT :hover{
+    text-shadow: 2px 3px 4px rgb(100, 237, 203);
+    border-style:double;
+    color:rgb(177, 177, 146);
+  }
+  
+table,
+td,
+th {
+  border: 1px solid red;
+  text-align: left;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+td {
+  border: 1px solid blue;
+  text-align: left;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+th {
+  border: 1px solid palevioletred;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+.combine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.speeches {
+
     font-size: 20px;
     color: black;
-  }
-  .stageDirection {
-    background-color: powderblue;
-    font-size: 30px;
-    color: black;
 
-  }
 
-  .stageDirection:hover {
-    background-color: yellow;
-    color:red
-  }
-  .speech{
-    font-size: 10px;
-    color: black;  
-  }
-
-.THEEARLOFCAVERSHAM{
-    color:red;
-}
-.VISCOUNTGORINGhisSon{
-    color:black;
-}
-
-.SIROBERTCHILTERNBartUnder-SecretaryforForeignAffairs{
-    color:red;
-}
-
-.VICOMTEDENANJACAttachéattheFrenchEmbassyinLondon{
-    color:green;
-}
-
-.MR.MONTFORD{
-    color:blue;
-}
-
-.MASONButlertoSirRobertChiltern{
-    color:greenyellow;
-}
-
-.PHIPPSLordGoringServant{
-    color:goldenrod;
-}
-
-.JAMES{
-    color:blueviolet;
-}
-
-.HAROLDFootmen{
-    color:orangered;
-}
-
-.LADYCHILTERN{
-    color:orchid;
-}
-
-.LADYMARKBY{
-    color:yellowgreen;
-}
-
-.THECOUNTESSOFBASILDON{
-    color:orange;
-}
-
-.MRS.MARCHMONT{
-    color:yellow;
-}
-
-.MISSMABELCHILTERNSirRobertChilternSister{
-    color:red;
-}
-
-.MRS.CHEVELEY{
-    color:blue;
 }
