@@ -147,3 +147,24 @@ td {
 
 
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 13px;
+  background-color: #dddddd;
+}
+.IconsLink{
+  margin-left: 200px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
