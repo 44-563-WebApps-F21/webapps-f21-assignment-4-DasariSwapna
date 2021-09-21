@@ -7,7 +7,7 @@
 }
 .name:hover{
   text-shadow: 2px 2px 5px blueviolet;
- 
+  border-style:double;
 }
 
 h6 {
